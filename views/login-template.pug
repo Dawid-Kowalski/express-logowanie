@@ -1,0 +1,10 @@
+doctype html
+html
+	head
+		title="login page"
+	body
+		p zaloguj sie
+		form(method='POST', action='http://localhost:3000/loged')
+			input(type='text', placeholder='login', name='login')
+			input(type='text', placeholder='haslo', name='password')
+			input(type='submit', value='zaloguj')

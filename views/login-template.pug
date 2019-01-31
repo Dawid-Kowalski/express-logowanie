@@ -4,9 +4,10 @@ html
 		title="login page"
 		link(rel='stylesheet', href='style.css', type='text/css')
 	body
-		div.login-container
-			p.login-text zaloguj sie
-			form(method='POST', action='http://localhost:3000/loged')
-				input.login-input(type='text', placeholder='login', name='login')
-				input.login-input(type='password', placeholder='haslo', name='password')
-				input.login-button(type='submit', value='zaloguj')
+		div.login
+			div.login-text
+				p.login-text zaloguj sie
+				form(method='POST', action='http://localhost:3000/loged')
+					input.login-input(type='text', placeholder='login', name='login')
+					input.login-input(type='password', placeholder='haslo', name='password')
+					input.login-button(type='submit', value='zaloguj')
